@@ -1,0 +1,61 @@
+body {
+    background-color: lightblue;
+  }
+  
+  .person {
+    display: flex;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+  }
+  
+  .person-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    color: black;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .person-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .person-role {
+    font-size: 1.5rem;
+
+  }
+  
+  .person-experience {
+    margin-bottom: 1rem;
+  }
+  
+  .person-read-more {
+    text-align: center;
+    position: relative;
+    /* right: 1px; */
+    top: 100px;
+  }
+  
+  .person-read-more button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .person-read-more button:hover {
+    background-color: gray;
+  }
+  
